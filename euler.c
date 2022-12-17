@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-#define f(x, y) (x + y + x * y)
+// #define f(x, y) (x + y + x * y)
+#define f(x, y) (0.02 * y * (y + 1) * (y + 3))
 
 int euler(float x0, float y0, float h, float x, int n)
 {
